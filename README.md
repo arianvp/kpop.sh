@@ -20,10 +20,13 @@ the SANs will point to the CT log entry in question; making it easy to shortlink
 ## Specification
 
 * Every batch's `CN` is `<YYYY>-<DD>-<MM>-<hh>.kpop.sh`
-* The batch's certificate Not-Before date is between   `hh:00:00` and `hh:59:00`
+* The batch's _first_ certificate Not-Before date is between   `hh:00:00` and `hh:59:00`
 * The SAN list is in the form of `[0-9a-f]{64}.kpop.sh` denoting the `sha256sum`
 * Amount of batches per day is at the discretion of `kpop.sh` to accomodate changes in the ToS of Letsencrypt
-* each SAN redirects to the `crt.sh` entry of the served certificate 
+* `https://<hash>.crt.sh` will stay reachable and will have its certificate renewed using cerbot
+* however it will serve a 301 redirect to the `crt.sh` page of the _first_ certificate issued for that SANs batch
+* The user clicking on `https://<hash>.kpop.sh` can look at the `Not-Before` date of the certificate in `crt.sh` to obtain the proof of knowledge
+
 
 ## Example
 
