@@ -25,7 +25,8 @@ the SANs will point to the CT log entry in question; making it easy to shortlink
 * Amount of batches per day is at the discretion of `kpop.sh` to accomodate changes in the ToS of Letsencrypt
 * `https://<hash>.crt.sh` will stay reachable and will have its certificate renewed using cerbot
 * however it will serve a 301 redirect to the `crt.sh` page of the _first_ certificate issued for that SANs batch
-* The user clicking on `https://<hash>.kpop.sh` can look at the `Not-Before` date of the certificate in `crt.sh` to obtain the proof of knowledge
+* The user clicking on `https://<hash>.kpop.sh` can look at the `Not-Before` date of the first certificate in `crt.sh` to obtain the proof that the person
+submitting the hash knew it at `Not-Before`
 
 
 ## Example
