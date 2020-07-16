@@ -20,7 +20,7 @@ the SANs will point to the CT log entry in question; making it easy to shortlink
 
 ## Example
 
-I disclosed on july 16 that I know of the following text:
+I disclosed on `2020-07-16T20:47:38+02:00` that I know of the following text:
 
 ```
 hello
