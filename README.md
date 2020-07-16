@@ -1,17 +1,17 @@
 # KPOP
 
-KPOP is short for Proof of Public Knowledge
+KPOP is short for Proof of Prior Knowledge
 
 < Insert a cool logo of the word `KPOP` in big bold letters here, but there's a mirror that in the reflection reads POPK which is short for Proof of Public Knowledge > 
 
 <Insert KPOP Stan Videos here>
 
 Inspired by the fact that twitter is often used by journalists , whisteblowers and activists to post hashes of documents to prove
-they had knowledge of something at a specific date.
+they had knowledge of something prior to a specific date.
 
 However, posting hashes has now been banned on twitter, due to the recent bitcoin hack.
 
-Funnily enough Bitcoin is often also used for the usecase of proving public knowledge.  However you have to pay transaction fees
+Funnily enough Bitcoin is often also used for the usecase of proving prior knowledge.  However you have to pay transaction fees
 to get information in the block.
 
 Instead, we decide to store the proofs inside [Certificate Transparency](https://www.certificate-transparency.org/) logs.  Which will record the fact when the certificate
