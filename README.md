@@ -2,6 +2,9 @@
 
 KPOP is short for Proof of Public Knowledge
 
+< Insert a cool logo of the word `KPOP` in big bold letters here, but there's a mirror that in the reflection reads POPK which is short for Proof of Public Knowledge > 
+
+<Insert KPOP Stan Videos here>
 
 Inspired by the fact that twitter is often used by journalists to post hashes of documents to prove
 they had knowledge of something at a specific date.
