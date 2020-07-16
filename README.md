@@ -17,3 +17,6 @@ be stored as a SAN in a letsencrypt certificate.    proofs are batched in certif
 
 the SANs will point to the CT log entry in question; making it easy to shortlink to the proof of knowledge. 
 
+Example proof:
+
+https://5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03.kpop.sh
