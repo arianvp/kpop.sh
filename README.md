@@ -6,7 +6,7 @@ KPOP is short for Proof of Public Knowledge
 
 <Insert KPOP Stan Videos here>
 
-Inspired by the fact that twitter is often used by journalists to post hashes of documents to prove
+Inspired by the fact that twitter is often used by journalists , whisteblowers and activists to post hashes of documents to prove
 they had knowledge of something at a specific date.
 
 However, posting hashes has now been banned on twitter, due to the recent bitcoin hack.
