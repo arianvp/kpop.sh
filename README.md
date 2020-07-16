@@ -17,6 +17,11 @@ be stored as a SAN in a letsencrypt certificate.    proofs are batched in certif
 
 the SANs will point to the CT log entry in question; making it easy to shortlink to the proof of knowledge. 
 
+## Specification
+
+* Every batch's `CN` is `<YYYY>-<DD>-<MM>-hh>-<mm>-<ss>.kpop.sh`
+* The SAN list is in the form of `[0-9a-f]{64}.kpop.sh` denoting the `sha256sum`
+* Amount of batches per day is at the discretion of `kpop.sh` to accomodate changes in the ToS of Letsencrypt
 
 ## Example
 
