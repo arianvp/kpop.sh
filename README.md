@@ -17,8 +17,8 @@ you.
 Since 15 july 2020, Twitter has blocked people of posting content that looks
 like hashes, to limit the fallout of the [2020 Twitter bitcoin
 scam](https://en.wikipedia.org/wiki/2020_Twitter_bitcoin_scam), making the
-platform demonstrably unreliable for these purposes. This inspired us
-to come up with a more reliably secure way to solve this problem.
+platform demonstrably unreliable for these purposes. This inspired us to come
+up with a more reliably secure way to solve this problem.
 
 Ironically, Bitcoin is a rather useful piece of technology in this regard.
 People can put arbitrary data in blocks, that once mined are immutable. This
@@ -28,13 +28,15 @@ specific time, and record that fact securely.
 
 One downside of Bitcoin is that you will have to pay a hefty transaction fee
 in order to store information. KPOP also stores its hashes in a distrbiuted
-merkle tree, but one that is not associated with cryptocurrencies.
-Certificatee Transparency - making it possible to create a Proof of Prior
-knowledge that secure, untamperable and easily auditable by third parties.
+merkle tree, but one that is not associated with cryptocurrencies. We add
+your hashes in certificates that we issue every few hours through Letsencrypt
+and publish those certificatres to Certificate Transparency, a distributed
+merkle tree of issued certificates.
 
 Once you have published the hash on your platform, you will get a shareable
 link that you can use to prove the hash was published at a specific date and
-time. Once you reveal your document, peeople can check at that link
+time. Once you reveal your document, people can check at the trustworthiness
+of the document by looking up its entry in Certificate Transparency.
 
 the SANs will point to the CT log entry in question; making it easy to
 shortlink to the proof of knowledge.
