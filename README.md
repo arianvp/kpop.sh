@@ -1,24 +1,42 @@
-# KPOP
+# Securely store Proofs of Prior Knowledge using KPOP
 
 KPOP is short for Proof of Prior Knowledge
 
-< Insert a cool logo of the word `KPOP` in big bold letters here, but there's a mirror that in the reflection reads POPK which is short for Proof of Public Knowledge > 
+< Insert a cool logo of the word `KPOP` in big bold letters here, but there's
+a mirror that in the reflection reads POPK which is short for Proof of Public
+Knowledge >
 
 <Insert KPOP Stan Videos here>
 
-Inspired by the fact that twitter is often used by journalists , whisteblowers and activists to post hashes of documents to prove
-they had knowledge of something prior to a specific date.
+As a journalists, whistleblower or activist you want to prove the fact that
+you knew of something at a specific date. A common way to do this is to share
+the hash of your publication on a public platform like Twitter but this
+requires you to trust these platforms to not alter content or actively censor
+you.
 
-However, posting hashes has now been banned on twitter, due to the recent bitcoin hack.
+Since 15 july 2020, Twitter has blocked people of posting content that looks
+like hashes, to limit the fallout of the [2020 Twitter bitcoin
+scam](https://en.wikipedia.org/wiki/2020_Twitter_bitcoin_scam), making the
+platform demonstrably unreliable for these purposes.
 
-Funnily enough Bitcoin is often also used for the usecase of proving prior knowledge.  However you have to pay transaction fees
-to get information in the block.
+Ironically, Bitcoin is a rather useful piece of technology in this regard.
+People can put arbitrary data in blocks, that once mined are immutable. This
+information is stored in a Merkle tree for efficient retrieval and
+verificaiton. This allows you to claim knowledge of certain information at a
+specific time, and record that fact securely.
 
-Instead, we decide to store the proofs inside [Certificate Transparency](https://www.certificate-transparency.org/) logs.  Which will record the fact when the certificate
-was signed until eternity in a tamper-proof way. Each proof of public knowledge (with is the hash of a document) will
-be stored as a SAN in a letsencrypt certificate.    proofs are batched in certificates by the hour to reduce load on letsencrypt's service.
+One downside of Bitcoin is that you will have to pay a hefty transaction fee
+in order to store information. KPOP also stores its hashes in a distrbiuted
+merkle tree, but one that is not associated with cryptocurrencies.
+Certificatee Transparency - making it possible to create a Proof of Prior
+knowledge that secure, untamperable and easily auditable by third parties.
 
-the SANs will point to the CT log entry in question; making it easy to shortlink to the proof of knowledge. 
+Once you have published the hash on your platform, you will get a shareable
+link that you can use to prove the hash was published at a specific date and
+time. Once you reveal your document, peeople can check at that link
+
+the SANs will point to the CT log entry in question; making it easy to
+shortlink to the proof of knowledge.
 
 ## Specification
 
