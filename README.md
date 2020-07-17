@@ -17,7 +17,8 @@ you.
 Since 15 july 2020, Twitter has blocked people of posting content that looks
 like hashes, to limit the fallout of the [2020 Twitter bitcoin
 scam](https://en.wikipedia.org/wiki/2020_Twitter_bitcoin_scam), making the
-platform demonstrably unreliable for these purposes.
+platform demonstrably unreliable for these purposes. This inspired us
+to come up with a more reliably secure way to solve this problem.
 
 Ironically, Bitcoin is a rather useful piece of technology in this regard.
 People can put arbitrary data in blocks, that once mined are immutable. This
