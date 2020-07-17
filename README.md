@@ -6,7 +6,7 @@ KPOP is short for Proof of Prior Knowledge
 a mirror that in the reflection reads POPK which is short for Proof of Public
 Knowledge >
 
-<Insert KPOP Stan Videos here>
+[![asciicast](https://asciinema.org/a/E50dULzTE3tGRwbXIkjgnAiqH.svg)](https://asciinema.org/a/E50dULzTE3tGRwbXIkjgnAiqH)
 
 As a journalists, whistleblower or activist you want to prove the fact that
 you knew of something at a specific date. A common way to do this is to share
