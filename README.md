@@ -33,7 +33,7 @@ your hashes in certificates that we issue every few hours through Letsencrypt
 and publish those certificatres to Certificate Transparency, a distributed
 merkle tree of issued certificates.
 
-Once you have published the hash on your platform, you will get a shareable
+Once you have published the hash on our platform, you will get a shareable
 link that you can use to prove the hash was published at a specific date and
 time. Once you reveal your document, people can check at the trustworthiness
 of the document by looking up its entry in Certificate Transparency.
