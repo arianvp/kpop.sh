@@ -14,7 +14,7 @@ the hash of your publication on a public platform like Twitter but this
 requires you to trust these platforms to not alter content or actively censor
 you.
 
-Since 15 july 2020, Twitter has blocked people of posting content that looks
+Since 15 July 2020, Twitter has blocked people of posting content that looks
 like hashes, to limit the fallout of the [2020 Twitter bitcoin
 scam](https://en.wikipedia.org/wiki/2020_Twitter_bitcoin_scam), making the
 platform demonstrably unreliable for these purposes. This inspired us to come
@@ -23,15 +23,15 @@ up with a more reliably secure way to solve this problem.
 Ironically, Bitcoin is a rather useful piece of technology in this regard.
 People can put arbitrary data in blocks, that once mined are immutable. This
 information is stored in a Merkle tree for efficient retrieval and
-verificaiton. This allows you to claim knowledge of certain information at a
+verification. This allows you to claim knowledge of certain information at a
 specific time, and record that fact securely.
 
 One downside of Bitcoin is that you will have to pay a hefty transaction fee
-in order to store information. KPOP also stores its hashes in a distrbiuted
-merkle tree, but one that is not associated with cryptocurrencies. We add
+in order to store information. KPOP also stores its hashes in a distributed
+Merkle tree, but one that is not associated with cryptocurrencies. We add
 your hashes in certificates that we issue every few hours through Letsencrypt
 and publish those certificatres to Certificate Transparency, a distributed
-merkle tree of issued certificates.
+Merkle tree of issued certificates.
 
 Once you have published the hash on our platform, you will get a shareable
 link that you can use to prove the hash was published at a specific date and
