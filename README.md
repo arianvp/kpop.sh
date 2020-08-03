@@ -42,6 +42,7 @@ shortlink to the proof of knowledge.
 
 ## Specification
 
+* Certificates are published in batches. Each batch containing several `SAN`s with hashes. This is done to accomodate rate-limits
 * Every batch's `CN` is `<YYYY>-<DD>-<MM>-<hh>.kpop.sh`
 * The batch's _first_ certificate Not-Before date is between   `hh:00:00` and `hh:59:00`
 * The SAN list is in the form of `[0-9a-f]{64}.kpop.sh` denoting the `sha256sum`
