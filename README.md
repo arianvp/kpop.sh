@@ -6,7 +6,6 @@ KPOP is short for Proof of Prior Knowledge
 a mirror that in the reflection reads POPK which is short for Proof of Public
 Knowledge >
 
-[![asciicast](https://asciinema.org/a/ubAYXKlXuBLkmzfqNkf9ID80j.svg)](https://asciinema.org/a/ubAYXKlXuBLkmzfqNkf9ID80j)
 
 As a journalists, whistleblower or activist you want to prove the fact that
 you knew of something at a specific date. A common way to do this is to share
@@ -55,15 +54,9 @@ submitting the hash knew it at `Not-Before`
 
 ## Example
 
-I disclosed on `2020-07-16T20:47:38+02:00` that I know of the following text:
 
-```
-hello
-```
+[![asciicast](https://asciinema.org/a/ubAYXKlXuBLkmzfqNkf9ID80j.svg)](https://asciinema.org/a/ubAYXKlXuBLkmzfqNkf9ID80j)
 
-My proof:
-
-https://5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03.kpop.sh
 
 
 ## Related work
